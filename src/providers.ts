@@ -1,4 +1,4 @@
-import { makeProviders, makeSimpleProxyFetcher, makeStandardFetcher, targets, Fetcher as RealFetcher } from "@movie-web/providers";
+import { makeProviders, makeSimpleProxyFetcher, makeStandardFetcher, targets, Fetcher as RealFetcher } from "@xijulian/providers";
 import { Context, Env } from "hono";
 
 const standardFetcher = makeStandardFetcher(fetch);
