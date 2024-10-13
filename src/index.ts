@@ -15,7 +15,7 @@ type SSEStreamingApi = Parameters<Parameters<typeof streamSSE>['1']>['0'];
 const app = new Hono();
 
 function isTurnstileEnabled(context: Context<Env>) {
-  return context.env?.TURNSTILE_ENABLED === "true"
+  return context.env?.TURNSTILE_ENABLED === "false"
 }
 
 app.use('*', (context, next) => {
