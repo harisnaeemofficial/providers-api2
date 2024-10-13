@@ -3,7 +3,7 @@ import { streamSSE } from 'hono/streaming';
 import { cors } from 'hono/cors';
 import {
   ScrapeMedia,
-} from '@movie-web/providers';
+} from '@xijulian/providers';
 import { ZodError, z } from 'zod';
 import { embedSchema, scrapeAllSchema, sourceSchema } from '@/schema';
 import { validateTurnstile } from '@/turnstile';
