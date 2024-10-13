@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@movie-web/providers':
-    specifier: ^2.2.0
-    version: 2.2.0
+  '@xijulian/providers':
+    specifier: ^2.3.4
+    version: 2.3.4
   '@tsndr/cloudflare-worker-jwt':
     specifier: ^2.3.2
     version: 2.3.2
@@ -623,7 +623,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@movie-web/providers@2.2.0:
+  /@xijulian/providers@2.3.4:
     resolution: {integrity: sha512-7rKUpLPklwOtS5P2CAeh0P3sPIuYvtkKIgm0kVMp+OsSpKd9IcuYm79bbDrA0MDi3IMGik1W6la9Mzy91+8uYQ==}
     dependencies:
       cheerio: 1.0.0-rc.12
